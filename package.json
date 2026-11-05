@@ -15,11 +15,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-github-user>/dsh-token-thrift.git"
+    "url": "https://github.com/WSTKeQing2677/dsh-token-thrift.git"
   },
-  "homepage": "https://github.com/<your-github-user>/dsh-token-thrift#readme",
+  "homepage": "https://github.com/WSTKeQing2677/dsh-token-thrift#readme",
   "bugs": {
-    "url": "https://github.com/<your-github-user>/dsh-token-thrift/issues"
+    "url": "https://github.com/WSTKeQing2677/dsh-token-thrift/issues"
   },
   "exports": {
     ".": "./index.js",

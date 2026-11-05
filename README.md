@@ -91,7 +91,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/<your-github-user>/dsh-token-thrift.git
+git clone https://github.com/WSTKeQing2677/dsh-token-thrift.git
 ```
 
 然后在 DSH 会话里对 AI 说：
