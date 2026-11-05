@@ -1,0 +1,40 @@
+{
+  "name": "dsh-token-thrift",
+  "version": "1.0.0",
+  "description": "Keeps the useful parts of large tool output and skips duplicate results, cutting context tokens without losing information.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "the dsh plugin authors",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "context",
+    "tokens"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-github-user>/dsh-token-thrift.git"
+  },
+  "homepage": "https://github.com/<your-github-user>/dsh-token-thrift#readme",
+  "bugs": {
+    "url": "https://github.com/<your-github-user>/dsh-token-thrift/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

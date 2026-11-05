@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Token Thrift",
+    "description": "Keeps the useful parts of large tool output and skips duplicate results, cutting context tokens without losing information."
+  }
+}

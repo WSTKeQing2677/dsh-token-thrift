@@ -1,0 +1,16 @@
+# Token Thrift — profile layer.
+# Design constraints live in ../AGENTS.md: no model calls, no mid-history rewrites,
+# everything reversible, and any uncertainty fails open to the original result.
+- insert:
+    - id: token-thrift
+      name: 'dsh-token-thrift'
+      config:
+        enabled: true
+        dedupe: true
+        trim: true
+        thresholdChars: 24000
+        budgetChars: 36000
+        headChars: 14000
+        tailChars: 12000
+        signalChars: 8000
+        dedupeMinChars: 400
