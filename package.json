@@ -1,6 +1,6 @@
 {
   "name": "dsh-token-thrift",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Keeps the useful parts of large tool output and skips duplicate results, cutting context tokens without losing information.",
   "private": true,
   "type": "module",
