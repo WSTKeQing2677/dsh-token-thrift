@@ -123,6 +123,16 @@ git clone https://github.com/WSTKeQing2677/dsh-token-thrift.git
 3. **只在工具结果产生的那一刻动手**：会话历史里已经存在的旧结果不会被改写。
 4. 折叠后想自己看一眼原文：直接说「把刚才那个结果完整给我看」。
 
+## 自测
+
+仓库里带 18 项离线断言，不需要宿主：
+
+```bash
+node test/smoke.mjs
+```
+
+覆盖：超长截断保留头尾、中段失败行被捞出、去重指针可解析、无 spill 后端时 fail-open、富内容与 `read` 不处理、替换必须更短。
+
 ## License
 
 MIT，见 [LICENSE](LICENSE)。

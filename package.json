@@ -1,6 +1,6 @@
 {
   "name": "dsh-token-thrift",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Keeps the useful parts of large tool output and skips duplicate results, cutting context tokens without losing information.",
   "private": true,
   "type": "module",
@@ -30,7 +30,8 @@
     "index.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "test/"
   ],
   "dsh": {
     "bundle": {
